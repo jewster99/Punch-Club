@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Punch Club</title>
+    <link rel="stylesheet" href="media/css/apply.css">
+    <link rel="stylesheet" href="media/css/fonts.css">
+    <link rel="shortcut icon" type="image/x-icom" href="img/punch%20club.png">
+</head>
+
+<body>
+    <div id="page-preloader" class="preloader">
+        <div class="loader"></div>
+    </div>
+    
+    <div id="nav"> 
+     <a href="main.html" class="nav_button" onclick="playAudio();">Main</a> 
+      <a href="news.html" class="nav_button" onclick="playAudio();">News</a> 
+       <a href="apply.html" class="nav_button" onclick="playAudio();">Apply</a> 
+        <a href="contacts.html" class="nav_button" onclick="playAudio();">Contacts</a> </div>
+    
+    <div class="header">
+     <div class="left">Punch</div> 
+      <img src="img/Punch_club_logo_smaller.png" alt="">
+       <div class="right">Club</div>
+    </div>
+    
+    <div class="container">
+    <img src="img/2%20boxers1.png" alt="">
+     <h1>Registration</h1>
+      <form class="reg-form" action="regist.html" method="get">
+        <div class="form-row">
+         <label for="form_fname">Name:</label>
+          <input type="text" id="form_fname" name="first_name" placeholder=" " /></div>
+           <div class="form-row">
+            <label for="form_sname">Surname:</label>
+             <input type="text" id="form_sname" name="second_name" placeholder=" " /> </div>
+             <div class="form-gender">
+              <label for="form_gender">Gender:</label>
+              <input type="radio" id="gender" name="gender"  />Woman
+              <input type="radio" id="gender" name="gender" />Men 
+          </div>
+            <div class="form-row">
+           <label for="form_email">Email:</label>
+          <input type="email" id="form_email" name="email" placeholder=" "/> </div>
+         <div class="form-row">
+        <label for="form_phone">Phone:</label>
+       <input type="text" id="form_phone" name="phone" placeholder=" " /> </div>
+      <div class="form-row">
+     <label for="form_about">About:</label>
+    <textarea type="about" id="form_about"></textarea>
+   </div>
+  <div class="form-row">
+ <input type="submit" value="Go" /></form>
+
+    </div>
+    </div>
+    
+    <div class="footer-container">
+     <img class="foot_img_right" src="img/pixel-boxer.png" alt="">
+      <img class="foot_img_left" src="img/Boxing%20gloves2.png" alt="">
+        <p>© 2018. Punch Club. All rights reserved. All trademarks are property of their respective owners in the US and other countries. </p>
+    </div>
+    
+     <script src="media/js/preloader.js"></script>
+ <!--    <script type="text/javascript">
+    function playAudio(){
+    var myAudio = new Audio;
+    myAudio.src = "zvuk-knopki-myshi.mp3";
+    myAudio.play();
+    }
+    </script> -->
+</script>
+</body>
+
+</html>
